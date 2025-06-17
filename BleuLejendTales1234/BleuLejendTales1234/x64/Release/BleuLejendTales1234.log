@@ -1,0 +1,13 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Platforms\x64\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+  BleuLejendTales1234.cpp
+d:\malware\source-codes\bleulejendtales1234.exe-sourcecode\bleulejendtales1234\bleulejendtales1234\bleulejendtales1234.cpp(292): warning C4101: 'pen': unreferenced local variable
+d:\malware\source-codes\bleulejendtales1234.exe-sourcecode\bleulejendtales1234\bleulejendtales1234\bleulejendtales1234.cpp(293): warning C4101: 'color': unreferenced local variable
+d:\malware\source-codes\bleulejendtales1234.exe-sourcecode\bleulejendtales1234\bleulejendtales1234\bleulejendtales1234.cpp(574): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\malware\source-codes\bleulejendtales1234.exe-sourcecode\bleulejendtales1234\bleulejendtales1234\bleulejendtales1234.cpp(575): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\malware\source-codes\bleulejendtales1234.exe-sourcecode\bleulejendtales1234\bleulejendtales1234\bleulejendtales1234.cpp(576): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\malware\source-codes\bleulejendtales1234.exe-sourcecode\bleulejendtales1234\bleulejendtales1234\bleulejendtales1234.cpp(563): warning C4101: 'hdc': unreferenced local variable
+d:\malware\source-codes\bleulejendtales1234.exe-sourcecode\bleulejendtales1234\bleulejendtales1234\bleulejendtales1234.cpp(662): warning C4293: '>>': shift count negative or too big, undefined behavior
+  Generating code
+  All 23 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BleuLejendTales1234.vcxproj -> D:\Malware\Source-codes\BleuLejendTales1234.exe-sourcecode\BleuLejendTales1234\x64\Release\BleuLejendTales1234.exe

@@ -1,0 +1,33 @@
+# Project: BleuLejendTales1234
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = BleuLejendTales1234_private.res
+OBJ      = BleuLejendTales1234.o $(RES)
+LINKOBJ  = BleuLejendTales1234.o $(RES)
+LIBS     = -L"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/lib" -L"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -mwindows -lgdi32 -fpermissive -lwinmm
+INCS     = -I"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/include" -I"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/include" -I"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/ULTIMATE download pack 148/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = BleuLejendTales1234.exe
+CXXFLAGS = $(CXXINCS) -lgdi32 -fpermissive -lwinmm
+CFLAGS   = $(INCS) -lgdi32 -fpermissive -lwinmm
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+BleuLejendTales1234.o: BleuLejendTales1234.cpp
+	$(CPP) -c BleuLejendTales1234.cpp -o BleuLejendTales1234.o $(CXXFLAGS)
+
+BleuLejendTales1234_private.res: BleuLejendTales1234_private.rc 
+	$(WINDRES) -i BleuLejendTales1234_private.rc --input-format=rc -o BleuLejendTales1234_private.res -O coff 
+

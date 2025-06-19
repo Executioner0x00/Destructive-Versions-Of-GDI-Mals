@@ -1,0 +1,21 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Platforms\x64\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+  DTMP.cpp
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(35): warning C4552: '<': result of expression not used
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(45): warning C4552: '<': result of expression not used
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(50): warning C4552: '<': result of expression not used
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(150): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(153): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(423): warning C4305: 'argument': truncation from '__int64' to 'DWORD'
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(423): warning C4309: 'argument': truncation of constant value
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(423): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(424): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(425): warning C4305: 'argument': truncation from '__int64' to 'DWORD'
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(425): warning C4309: 'argument': truncation of constant value
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(425): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\malware\source-codes\dtmp.exe-sourcecode\dtmp\dtmp\dtmp.cpp(426): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  1 of 112 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DTMP.vcxproj -> D:\Malware\Source-codes\DTMP.exe-sourcecode\DTMP\x64\Release\DTMP.exe
